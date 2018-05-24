@@ -2,6 +2,7 @@
 @import "utils"
 @import "colors"
 @import url("https://fonts.googleapis.com/css?family=Oleo+Script")
+@import "bootstrap"
 
 html, body 
     margin: 0
@@ -32,8 +33,8 @@ nav
 
         &:last-child a 
             border-right: none
-        
-        @include size(large) 
+            
+        @include $screen(large) 
             width: 15%
             float: left
         
@@ -50,6 +51,7 @@ nav
         &:hover 
             background-color: $black
         
-        @include size(large)
+        @include $screen(large)
             border-bottom: 0
+
 
