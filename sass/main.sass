@@ -3,6 +3,7 @@
 @import "colors"
 @import "bootstrap"
 @import url("https://fonts.googleapis.com/css?family=Oleo+Script")
+@import "bootstrap"
 
 html, body 
     margin: 0
@@ -33,8 +34,13 @@ nav
 
         &:last-child a 
             border-right: none
+<<<<<<< HEAD
         
         @include screen(large) 
+=======
+            
+        @include $screen(large) 
+>>>>>>> master
             width: 15%
             float: left
         
@@ -51,6 +57,22 @@ nav
         &:hover 
             background-color: $black
         
+<<<<<<< HEAD
         @include screen(large)
+=======
+        @include $screen(large)
+>>>>>>> master
             border-bottom: 0
-
+.form 
+    width: 200px
+    margin: 0 auto
+    margin-top: 50px
+      
+      
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus 
+    background-color: lightskyblue
+    border-color: lightskyblue

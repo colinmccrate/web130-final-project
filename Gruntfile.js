@@ -104,6 +104,10 @@ module.exports = (grunt) => {
     ]);
     
     grunt.registerTask('code', 'Builds as dev then watches for changes', [
+<<<<<<< HEAD
         'dev','watch'    
+=======
+       'dev', 'watch'    
+>>>>>>> master
     ]);
 };
